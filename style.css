@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+}
+
+header{
+    background-color: black;
+    color: rgb(252, 248, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+.leftheader{
+    display: flex;
+    align-items: center;
+
+}
+
+.leftheader a{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 0px 30px;
+    justify-content: right;
+    font-size: 12px;
+}
+
+.leftheader h1{
+     padding-right: 300px;
+}
+
+.rightheader button{
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 30px;
+}
+.UserCard {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.CardHeader {
+    background-color: turquoise;
+    height: 120px;
+    margin-bottom: 70px;
+}
+.CardBody h1,
+.CardBody h2,
+.CardBody h3,
+.CardBody p {
+    margin: 15px;
+}
+.avatar {
+    height: 160px;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color: thistle;
+    border-radius: 50%;
+}
+.icon-s {
+    height: 20px;
+}
+main-content {
+    display: flex;
+    width: 25%;
+    padding: 5px;
+    justify-content:space-between;
+    margin: 0 auto;
+}
+.education{
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+.Requests {
+    border: black 1px solid;
+}
+.Connections {
+    border: solid black 1px;
+    margin-top: 50px;
+
+}
+h3 {
+    background-color: turquoise;
+}
